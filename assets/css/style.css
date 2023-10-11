@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header section is start */
+header{
+    width: 100%;
+    height: 53px;
+    background:#141E3B;
+    padding: 0px 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 18px;
+}
+header ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+header ul li a.flite{
+    color: #fc749a;
+}
+header ul li a.log{
+    color: #c8f885;
+}
+header ul li a.momoland{
+    font-size: 23px;
+}
+/* header section end */
+
+/* banner section start */
+.banner{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(224, 248, 248, 0.2),rgba(93, 205, 224, 0.2)),url('../imp/momoland3.jpg');
+    background-size: 100% 100%;
+    padding: 0px 125px;
+}
+h2{
+    font-size: 53px;
+    font-weight: 200;
+    padding-top: 95px;
+}
+span{
+    display: flex;
+}
+h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 19px;
+}
+/* banner section end */
