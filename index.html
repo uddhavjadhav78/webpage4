@@ -32,10 +32,74 @@
         <!-- /header section is end -->
 
         <!-- banner section start -->
-        <div class="banner">
-            <h2>"The best place to find <span>the cheapest airfires"</span></h2>
-            <h3>- every single time</h3>
-        </div>
+        <section class="banner">
+            <h1>"The best place to find <span>the cheapest airfires"</span></h1>
+            <h2>- every single time</h2>
+            
+            <form>
+                <div>
+                    <div class="switchButton">
+                        <button type="button" class="active"><i class="fa-solid fa-plane-departure"></i> Flight</button>
+                        <button type="button"><i class="fa-solid fa-hotel"></i> Hotels</button>
+                        <button type="button"><i class="fa-solid fa-car"></i> Cars</button>
+                    </div>
+    
+                    <div class="searchForm">
+                        <label for="origin-city">origin city</label>
+                        <input type="text" name="origin-city" id="origin-city" placeholder="Enter origin city">
+    
+                        <i class="fa-solid fa-arrow-right-arrow-left" style="color: aqua;margin-right: 5px;"></i>
+    
+                        <label for="destination-city">origin city</label>
+                        <input type="text" name="destination-city" id="destination-city" placeholder="Enter destination city">
+    
+                        <label for="start-date">travelling-starting-date</label>
+                        <input type="date" name="start-date" id="start-date">
+    
+                        <label for="end-date">travelling-end-date</label>
+                        <input type="date" name="end-date" id="end-date">
+    
+                        <label for="select-passenger">select passenger</label>
+                        <select name="select-passenger" id="select-passenger">
+                        <option selected >select passenger</option>    
+                        <option value="1 passenger">1 passenger</option>
+                        <option value="2 passenger">2 passenger</option>
+                        <option value="3 passenger">3 passenger</option>
+                        <option value="4 passenger">4 passenger</option>
+                        <option value="5 passenger">5 passenger</option>
+                        </select>
+                    </div>
+
+                    <div class="ticketType">
+                        <label for="trip-type"></label>
+                        <select name="trip-type" id="trip-type">
+                            <option value="destination">Trip type:Destination trip</option>
+                            <option value="return" selected>Trip type:Return trip</option>
+                        </select>
+
+                        <label for="tickect-class"></label>
+                        <select name="tickect-class" id="tickect-class">
+                            <option  value="economy" > Tickect class:Economy</option>
+                            <option  value="business" selected>Tickect class:Business</option>
+                            <option  value="primium">Tickect class:Premium</option>
+                            <option  value="firstclass">Tickect class:First class</option>
+                        </select>
+
+                        
+                        <input type="checkbox" name="directFlight" id="directFlight">
+                        <label for="directFlight" style="color: #fff;">Direct flights only</label>
+
+                        <input type="checkbox" name="includeflight" id="includeFlight">
+                        <label for="directFlight" style="color: #fff;">Include nearly airports only</label>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="search">search</button>
+                </div>
+            </form>
+            
+            
+        </section>
 
         <!-- /banner section end -->
         
